@@ -39,11 +39,10 @@ img{
     border-radius: 1rem;
 }
 table{
-    background-color: rgba(255, 124, 101, 0.733);
     text-align: center;
 }
 form{
-    background-color: rgba(248, 248, 108, 0.733);
+    background-color: lightgray;
     text-align: center;
 }
 fieldset{
@@ -64,11 +63,11 @@ nav ul li {
     position:relative;
 }
 nav ul li a{
-    font-family: 'Trebuchet MS';
+    font-family: 'Segoe UI';
     font-size: 1.3rem;
     text-align: center;
     display: block;
-    color: rgb(204, 0, 109);
+    color: rgb(204, 0, 109) !important;
     background-color: silver;
     padding: 1rem;
     border: 0.2rem solid darkgray;
@@ -98,14 +97,17 @@ iframe{
     width: 32rem;
     height: 18rem;
 }
-
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+/*sass*/
 footer{
     text-align: center;
     p{
         color: black;
     }
 }
-/*sass*/
 #catalogMain{
     section{
         border-style: dotted;
@@ -113,9 +115,8 @@ footer{
         border-color: rgb(135, 206, 235);
         border-radius: 1.5rem;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
         background-color: rgb(230, 230, 230);
-        :hover{
+        img:hover, p:hover, iframe:hover{
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         }
     } 
