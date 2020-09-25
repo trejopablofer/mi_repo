@@ -25,6 +25,15 @@ h3{
 p{
     color: darkslategrey;
 }
+.letter{
+    background-color: rgb(221, 221, 221);
+    border: dashed lightgray;
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    padding: 1rem 2rem;
+    text-decoration: underline  lightgray ;
+    text-decoration-skip: objects;
+}
 img{
     border-radius: 1.5rem;
     z-index: 8;
@@ -100,7 +109,7 @@ iframe{
 .carousel-inner img {
     width: 100%;
     height: 100%;
-  }
+}
 /*sass*/
 footer{
     text-align: center;
@@ -119,7 +128,7 @@ footer{
         img:hover, p:hover, iframe:hover{
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         }
-    } 
+    }
 }
 @mixin pstyle($margin,$indent,$style){
     margin-bottom: $margin;
@@ -150,12 +159,13 @@ $consoles: (
         background-color: $color;
         color: whitesmoke;
         font-style: normal;
-        border-radius: 1rem;
+        border-radius: 0.8rem;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 }
 /*transformaciones y animación*/
 header{
-    background-image: linear-gradient(gray,rgba(255, 255, 255, 0));
+    background-image: linear-gradient(gray,rgb(172, 172, 172),rgba(255, 255, 255, 0));
 }
 footer{
     background-image: linear-gradient(rgba(255, 255, 255, 0),gray);

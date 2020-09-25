@@ -31,6 +31,18 @@ p {
   color: darkslategrey;
 }
 
+.letter {
+  background-color: #dddddd;
+  border: dashed lightgray;
+  border-radius: 2rem;
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
+  -webkit-text-decoration: underline  lightgray;
+          text-decoration: underline  lightgray;
+  -webkit-text-decoration-skip: objects;
+          text-decoration-skip: objects;
+}
+
 img {
   border-radius: 1.5rem;
   z-index: 8;
@@ -169,34 +181,42 @@ section p {
   background-color: #424242;
   color: whitesmoke;
   font-style: normal;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dsl {
   background-color: #757575;
   color: whitesmoke;
   font-style: normal;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dsi {
   background-color: #536d9e;
   color: whitesmoke;
   font-style: normal;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dsixl {
   background-color: #ab4b81;
   color: whitesmoke;
   font-style: normal;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*transformaciones y animación*/
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(gray, rgba(255, 255, 255, 0));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), color-stop(#acacac), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(gray, #acacac, rgba(255, 255, 255, 0));
 }
 
 footer {
